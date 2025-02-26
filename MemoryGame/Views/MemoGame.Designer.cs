@@ -36,7 +36,6 @@
             this.lblTimeLeft = new System.Windows.Forms.Label();
             this.tickAfterReveal = new System.Windows.Forms.Timer(this.components);
             this.timerAllTime = new System.Windows.Forms.Timer(this.components);
-            this.button1 = new System.Windows.Forms.Button();
             this.optionsPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -107,22 +106,12 @@
             this.timerAllTime.Interval = 1000;
             this.timerAllTime.Tick += new System.EventHandler(this.timerAllTime_Tick);
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(12, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(112, 120);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "switch to match problems";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // MemoGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(1924, 929);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.optionsPanel);
             this.Controls.Add(this.mainPanel);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -144,7 +133,6 @@
         private System.Windows.Forms.Timer timerAllTime;
         private System.Windows.Forms.Label lblTimeLeft;
         private System.Windows.Forms.Label lblPoints;
-        private System.Windows.Forms.Button button1;
     }
 }
 
